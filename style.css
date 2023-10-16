@@ -1,0 +1,230 @@
+.corpo, html { 
+    background: radial-gradient(farthest-corner at right top, #eea3a3 0%,#490606 100%);
+    height: 100%;
+    font-family: 'Roboto', cursive;
+    color:#0300af;
+    margin: 0px;
+    padding: 0px opx;
+    /*background: linear-gradient(to bottom, #eea3a3 0%, #490606 100%);*/
+    font-size:16px;
+  }
+  
+  .cabecalho {
+    font-size: 1rem;
+    background: linear-gradient(to bottom, #eea3a3 0%, #490606 100%);
+    padding:10px 0px;
+    margin-top:0px;
+    text-align:center;
+    color: darkred;
+    font-family: "Audiowide", sans-serif;
+    display:inline-block;
+    vertical-align: -webkit-baseline-middle;
+    height: displayheight;
+    width: displaywidth;
+  }
+  
+
+
+
+
+
+.conteudo {
+    padding: 6.5vh 3em 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.principal {
+    flex-grow: 2;
+    flex-basis: auto;
+    min-width: displaywidth;
+    padding: 0em 2em 2em;
+    box-sizing: border-box;
+    display: flex;
+    /*background: #C5965F;*/
+    background: radial-gradient(farthest-corner at right top, #eea3a3 0%,#490606 100%);
+    border-radius: 10px;
+    gap: 2em;
+}
+  
+.mochila {
+
+}
+  
+.mochila:before, .mochila:after {
+    display: block;
+    content: '';
+    position: absolute;
+  }
+  
+.mochila:before {
+
+
+
+    
+}
+
+
+
+
+
+  
+.mochila:after {
+
+}
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #40112D;
+    box-shadow: -55px 20px 70px #eea3a3, 50px 100px 100px #490606;
+    color: darkred;
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    color: darkred;
+    cursor: pointer;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+    color: darkred;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+    color: darkred;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    font-weight: 400;
+    color: darkred;
+}
+
+
+
+
+  
+  
+  
+  .titulo {
+    margin-top:0px;
+    text-align:center;
+    color:gold;
+    font-family: "Times", sans-serif;
+    font-size:18px;
+  }
+  
+  
+  .container {
+    display:inline-block;
+    /*float: center;*/
+    padding: 0px 0px;
+    margin-top:0px;
+    align-items: center;
+  }
+  
+  .lista{
+    color: rgb(249,249,249);
+    text-align:justify;
+    font-size:14px;
+    padding: 0px 10px;
+    margin-top:0px;
+    margin:10px;
+  }
+  
+  
+  
+  
+  .menu {
+    float: left;
+    width: 18%;
+    text-align: center;
+    font-size:16px;
+    color: rgb(246,248,247);
+  }
+  
+  .menu a {
+    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    padding: 3px;
+    margin-top: 3px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size:15px;
+  }
+  
+  .centro {
+    float: left;
+    width: 55%;
+    padding: 0px 0px;
+    margin-top:0px;
+    align-items: center;
+    
+  }
+  
+  .right {
+    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    color: white;
+    float: right;
+    width: 20%;
+    padding: 5px 5px;
+    margin-top: 0px;
+    text-align: justify;
+    font-size:14px;
+  }
+  
+  .rodape {
+    vertical-align: displayWidth;
+    text-align: justify;
+    font-size:14px;
+    padding: 5px 5px;
+    background: linear-gradient(to bottom, #eea3a3 0%,#490606 100%);
+    margin-top:15px;
+    color: black;
+  }
+  
+  
+  .copyright {
+    text-align:center;
+    color: black;
+    font-size: 16px;
+    margin: 0px 0px;
+  }
+  
+
+
+
+
